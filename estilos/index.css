@@ -31,6 +31,7 @@
 }
 
 .card {
+    margin: auto;
     width: 400px;
     display: flex;
     flex-flow: column nowrap;
