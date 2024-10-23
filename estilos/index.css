@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3DB66B;
+    --secondary-color: #006125;
+    --text-color: #ecf0f1;
+    --text-secondary-color: #09361A;
+    --background-color: #AAFFCB;
+    --vermelho-bahia: #E71A3A;
+    --azul-bahia: #0033C5;
+}
+
+.conteudo {
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.conteudo > h1 {
+    width: 100%;
+    background-color: var(--background-color);
+    text-align: center;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.781);
+    font-size: 2em;
+    padding: 5px 0px;
+}
+
+.card {
+    width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    color: var(--azul-bahia);
+}
+
+.card strong {
+    color: var(--vermelho-bahia);
+}
+
+.card img {
+    width: 50px;
+}
+
+.card a {
+    background-color: var(--azul-bahia);
+    color: var(--text-color);
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.card a:hover {
+    color: var(--azul-bahia);
+    background-color: var(--text-color);
+}
