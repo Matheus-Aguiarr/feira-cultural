@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3DB66B;
+    --secondary-color: #006125;
+    --text-color: #ecf0f1;
+    --text-secondary-color: #09361A;
+    --background-color: #AAFFCB;
+    --vermelho-bahia: #E71A3A;
+    --azul-bahia: #0033C5;
+}
+
+.conteudo h1 {
+    color: var(--text-color);
+    background-image: linear-gradient(to right, var(--vermelho-bahia), var(--azul-bahia));
+}
+
+
