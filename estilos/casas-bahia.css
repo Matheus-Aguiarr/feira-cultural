@@ -16,9 +16,11 @@
     --azul-bahia: #0033C5;
 }
 
+
 .conteudo h1 {
     color: var(--text-color);
     background-image: linear-gradient(to right, var(--vermelho-bahia), var(--azul-bahia));
+    width: 100%;
 }
 
 
