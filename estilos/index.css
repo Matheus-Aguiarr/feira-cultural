@@ -21,15 +21,6 @@
     padding: 0px;
 }
 
-.conteudo > h1 {
-    width: 100%;
-    background-color: var(--background-color);
-    text-align: center;
-    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.781);
-    font-size: 2em;
-    padding: 5px 0px;
-}
-
 .card {
     margin: auto;
     width: 400px;
