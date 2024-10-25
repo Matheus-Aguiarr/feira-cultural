@@ -16,6 +16,8 @@
     --background-color: #AAFFCB;
     --vermelho-bahia: #E71A3A;
     --azul-bahia: #0033C5;
+    --preto-ponto: #252122;
+    --laranja-ponto: #F37920;
 }
 
 .conteudo {
@@ -49,15 +51,32 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
-    color: var(--azul-bahia);
 }
 
-.card strong {
-    color: var(--vermelho-bahia);
+.bahia {
+    color: var(--azul-bahia);
+    strong {
+        color: var(--vermelho-bahia);
+    }
 }
+
+.ponto {
+    color: var(--preto-ponto);
+    strong {
+        color: var(--laranja-ponto);
+    }
+    h2 {
+        margin: 0px;
+        padding: 10px;
+    }
+}
+
+
+
+
 
 .card img {
-    width: 50px;
+    width: 100px;
 }
 
 .card a {

@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 :root {
     --primary-color: #3DB66B;
     --secondary-color: #006125;
@@ -14,13 +16,13 @@
     --background-color: #AAFFCB;
     --vermelho-bahia: #E71A3A;
     --azul-bahia: #0033C5;
+    --preto-ponto: #252122;
+    --laranja-ponto: #F37920;
 }
-
-
 
 .conteudo h1 {
     color: var(--text-color);
-    background-image: linear-gradient(to right, var(--vermelho-bahia), var(--azul-bahia));
+    background-image: linear-gradient(to right, var(--preto-ponto), var(--laranja-ponto));
     width: 100%;
     text-align: center;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.781);
@@ -28,7 +30,7 @@
 }
 
 .conteudo h2 {
-    color: black;
+    color: var(--preto-ponto);
     margin-top: 20px;
     margin-left: 15px;
     padding: 5px;
@@ -41,4 +43,5 @@
     margin-top: 30px;
     margin-left: 15px;
     text-align: justify;
+    color: var(--preto-ponto);
 }
