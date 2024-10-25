@@ -58,9 +58,14 @@
     strong {
         color: var(--vermelho-bahia);
     }
+    h2 {
+        margin: 0px;
+        padding: 10px;
+    }
 }
 
 .ponto {
+    margin-bottom: 30px;
     color: var(--preto-ponto);
     strong {
         color: var(--laranja-ponto);
@@ -70,10 +75,6 @@
         padding: 10px;
     }
 }
-
-
-
-
 
 .card img {
     width: 100px;

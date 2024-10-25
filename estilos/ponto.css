@@ -20,6 +20,8 @@
     --laranja-ponto: #F37920;
 }
 
+
+
 .conteudo h1 {
     color: var(--text-color);
     background-image: linear-gradient(to right, var(--preto-ponto), var(--laranja-ponto));
@@ -27,6 +29,7 @@
     text-align: center;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.781);
     margin: 0;
+    text-shadow: 1px 1px 1px black;
 }
 
 .conteudo h2 {
@@ -45,3 +48,4 @@
     text-align: justify;
     color: var(--preto-ponto);
 }
+
