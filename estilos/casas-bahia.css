@@ -18,9 +18,13 @@
 
 
 
+
+
 .conteudo h1 {
     color: var(--text-color);
-    background-image: linear-gradient(to right, var(--vermelho-bahia), var(--azul-bahia));
+    background-color: var(--azul-bahia);
+    border-bottom: 6px solid var(--vermelho-bahia) ;
+    padding: 10px;
     width: 100%;
     text-align: center;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.781);
@@ -28,18 +32,23 @@
 }
 
 .conteudo h2 {
-    color: black;
-    margin-top: 20px;
-    margin-left: 15px;
-    padding: 5px;
+    
+    color: var(--azul-bahia);
+    padding: 20px;
     width: fit-content;
+}
+
+.subtitulo span{
+    color: var(--vermelho-bahia);
 }
 
 
 .conteudo p {
+    border-radius: 5px;
     width: 90vw;
     margin-top: 30px;
     margin-left: 15px;
     text-align: justify;
-    color: rgb(32, 32, 32);
+    color: var(--azul-bahia);
+   
 }
