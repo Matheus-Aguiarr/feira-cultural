@@ -38,14 +38,17 @@
 .subtitulo{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+    color: var(--preto-ponto);
+}
 
-    .subtitulo img{
-        margin-top: 15px;
-        width: 100px;
-        height: auto;
-        margin-left: 48px;
-        margin-right: 17px;}
+.subtitulo img{
+    margin-top: 15px;
+    width: 100px;
+    height: auto;
+    margin-left: 48px;
+    margin-right: 17px;    
+}
 
 
 .conteudo p {
