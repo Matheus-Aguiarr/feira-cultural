@@ -38,17 +38,28 @@
     width: fit-content;
 }
 
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;}
+
+.subtitulo img{
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 17px;
+}
+
 .subtitulo span{
     color: var(--vermelho-bahia);
 }
 
 
 .conteudo p {
-    border-radius: 5px;
     width: 90vw;
     margin-top: 30px;
     margin-left: 15px;
     text-align: justify;
-    color: var(--azul-bahia);
-   
-}
+    text-indent: 20px;}
