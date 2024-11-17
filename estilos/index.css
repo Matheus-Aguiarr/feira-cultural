@@ -43,6 +43,10 @@
     text-align: justify;
 }
 
+.pao-conteudo p{
+    text-indent: 20px;
+    font-weight: 600;
+}
 .card {
     margin: auto;
     width: 400px;
