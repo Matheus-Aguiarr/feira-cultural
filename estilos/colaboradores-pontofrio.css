@@ -14,17 +14,21 @@
     --background-color: #AAFFCB;
     --vermelho-bahia: #E71A3A;
     --azul-bahia: #0033C5;
+    --preto-ponto: #252122;
+    --laranja-ponto: #F37920;
 }
 
 .titulo h1{
-     color: var(--text-color);
-    background-color: var(--azul-bahia);
-    border-bottom: 6px solid var(--vermelho-bahia) ;
-    padding: 10px;
+    color: var(--text-color);
+    background-color: var(--preto-ponto);
     width: 100%;
+    padding: 10px;
     text-align: center;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.781);
     margin-top: 100px;
+    border-bottom: solid 6px var(--laranja-ponto);
+    text-shadow: 1px 1px 1px black;
+   
 }
 
 .funcionarios{
@@ -62,5 +66,5 @@ a{
 }
 
 a:hover{
-    color:var(--azul-bahia);
+    color:var(--laranja-ponto);
 }
