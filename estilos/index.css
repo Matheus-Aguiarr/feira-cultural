@@ -22,6 +22,7 @@
 
 .conteudo {
     margin-top: 100px;
+    margin-bottom: 50px;
     padding: 0px;
 }
 
@@ -98,4 +99,12 @@
 .card a:hover {
     color: var(--azul-bahia);
     background-color: var(--text-color);
+}
+
+.abilio-img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    
 }
