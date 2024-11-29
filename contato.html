@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="estilos/menu-animado.css">
     <link rel="stylesheet" href="estilos/index.css">
-    <link rel="stylesheet" href="estilos/sobre.css">
+    <link rel="stylesheet" href="estilos/contato.css">
     <script src="scripts/script.js"></script>
     <title>Sobre nós</title>
 </head>
@@ -45,23 +45,27 @@
 
     <main class="conteudo">
         <h1>
-            2° EM
+            Entre em contato
         </h1>
-        <h1>
-            Mentor:
+        <p>
+            Tem dúvidas ou deseja saber mais sobre nossa feira cultural? Entre em contato conosco! Ficaremos felizes em atender você.
+        </p>
+        <h1 class="msg">
+            Fale conosco!
         </h1>
-        <ul>
-            <a href="diego.html">
-                <li>Professor Diego</li>
-            </a>
-        </ul>
-        <h1>
-            Desenvolvedores do Site:
-        </h1>
-        <ul>
-            <li>Matheus Aguiar</li>
-            <li>Luigi Felicio</li>
-        </ul>
+        <form action="https://formsubmit.co/matheusmcpe53@gmail.com" method="POST">
+            <input type="text" name="name" id="name" placeholder="Seu nome (obrigatório)" required>
+            <input type="email" name="email" id="email" placeholder="Seu Email (obrigatório)" required>
+            <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="Obrigado por nos contatar! Ficamos muito felizes com a sua presença! E não se esqueça, seja você mesmo seu próprio Abílio Diniz. :)">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://matheus-aguiarr.github.io/feira-cultural/index.html">
+            <textarea name="message" id="message" placeholder="Mensagem..."></textarea>
+            <button type="submit" class="submit-form">
+                Enviar Mensagem
+            </button>
+        </form>
     </main>
 </body>
 </html>
